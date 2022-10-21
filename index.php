@@ -14,15 +14,18 @@
         .formulario {
             background-color: #808080;
             color: #fff;
-            text-shadow: 1px 1px #000;
+            text-shadow: 2px 2px #000;
             padding: 10px;
             font-size: 1.9rem;
+            font-weight: bold; /* Nome em negrito */
         }
 
         input {
             font-size: 1.7rem;
-            padding: 2px;
+            padding: 4px;
             border-radius: 10px; /* DEIXA A CAIXA REDONDA!!! */
+            border: solid; /* Mostra a borda da caixa */
+            font-weight: bold;
         }
     </style>
 
