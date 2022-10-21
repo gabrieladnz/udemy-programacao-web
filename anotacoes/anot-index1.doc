@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!-- Leitura pelo navegador -->
+<html lang="pt-br">
+<!-- Linguagem-->
+
+<head>
+    <!-- Recebe as configurações do site -->
+    <meta charset="UTF-8"> <!-- Compreende os caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compreende tam da tela/modo de exibição/responsividade-->
+    <title>Site WEB</title> <!-- Título da aba-->
+
+    <!-- Inserindo CSS: -->
+    <style type="text/css">
+        h1 {
+            /* Personalizo o titulo principal*/
+            color: blue;
+            font-family: Arial;
+            /* Muda fonte*/
+            font-size: 40px;
+            /* Tamanho da fonte*/
+            text-align: center;
+            /* Alinhamento do texto*/
+        }
+
+        p {
+            color: blueviolet;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            text-align: end;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Corpo do site-->
+    <h1>
+        <!-- Título principal = não deve ser repetido--> Teste de aula
+    </h1>
+    <h2>
+        <!-- Subtítulo--> Teste de aula
+    </h2>
+    <h3> Teste de aula</h3>
+    <h4> Teste de aula</h4>
+    <h5> Teste de aula</h5>
+    <h6> Teste de aula</h6>
+
+    <div>A</div> <!-- -->
+    <section>B</section> <!-- Seção-->
+    <footer>C</footer> <!-- Rodapé do site -->
+    <aside>D</aside> <!-- Laterais adicionais-->
+    <nav>E</nav> <!-- Recebe o menu de navegação-->
+
+    <strong>F</strong> <!-- Destaca como negrito/Importância semântica-->
+    <b>G</b> <!-- Destaca em negrito/Sem importância-->
+
+    <p><!-- Tag de paragráfo--> Teste texto
+    </p>
+    <br> <!-- Pula linha -->
+
+    <!-- Define um formulário/Contém atributos-->
+    <form action="" method="" target="">
+        <!-- action = define local de envio
+             method = método de envio (get/post)
+             target = define trajeto do item -->
+
+        <!-- Especifica qual o rótulo do input/ cria um vínculo através do 'for'-->
+        <label for="nome">Nome:</label><br>
+        <!-- Cria um controle pra receber os dados do usuário-->
+        <input type="text" id="nome" name="nome" placeholder="Insira seu nome">
+
+    </form>
+
+</body>
+
+</html>

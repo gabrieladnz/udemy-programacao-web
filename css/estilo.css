@@ -1,0 +1,68 @@
+*{
+    margin: 0; /* margem */
+    border: 0; /* borda */
+    padding: 0; /* distância entre elemento e a borda */
+}
+
+html {
+    font-size: 62.5%; /* tamanho da letra*/
+}
+
+header {
+    background-color: #6d0881; /* cor de fundo*/
+    color: ghostwhite; /* rgb, rgba ou hexadecimal*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1%; /* distância esquerda */
+    padding-top: 1%; /* distância no topo */
+    padding-bottom: 0.5%; /* distância pra baixo */
+    font-size: 1.6rem;
+}
+
+section {
+    font-family: arial;
+    font-size: 16px;
+    text-align: justify;
+    width: 90%; /* largura */
+    margin: 0 auto; /* zera margens de cima e baixo | automaticamente dá mesma medida p/esq e dir*/
+    padding: 1%;
+    box-shadow: 0.5px 0.5px #000; /* sombra */
+    font-size: 1.6rem
+}
+
+footer{
+    background-color: #6d0881;
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    text-align: center;
+    font-size: 1.6rem
+}
+
+h3 {
+    text-shadow: 2px 2px #000; /* sombra no texto*/
+    font-size: 2rem;
+}
+
+h4 {
+    text-shadow: 2px 2px #000; 
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: justify;
+    font-size: arial;
+}
+
+/* classe criada p/diferenciar 'p'*/
+.texto-rodape {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px #000;
+
+}

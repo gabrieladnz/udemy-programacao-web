@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- Leitura pelo navegador -->
+<html lang="pt-br">
+<!-- Linguagem-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"> <!-- Conectar o arquivo CSS ao index
+    <title>Programação PHP</title>
+<body>
+    <!-- cabeçalho da página
+    <header>
+        <h3>PROGRAMAÇÃO PHP</h3>
+        <h4>CURSO UDEMY</h4>
+    </header>
+    <br>
+
+    <!-- define uma seção pra página
+    <section id="inicio-site"> <!-- criando ID
+        <img src="img/img-gif.gif" width="35%" height="25%" alt="Imagem topo"> <!-- adicionando imagem e mensagem(alt)-->
+        <!-- width = largura | height = altura 
+        <br><br>
+        <h1>Programação PHP</h1>
+    </section>
+    <br>
+
+    <section>
+        <h2>Sessão 2</h2>
+        <br>
+        <p>Conteúdo do site.</p>
+    </section>
+    <br>
+
+    <section>
+        <h2>Sessão 3</h2>
+        <br>
+        <p>Conteúdo do site.</p>
+    </section>
+    <br>
+
+    <!-- rodapé da página
+    <footer>
+        <h3>CURSO UDEMY</h3>
+        <h4>Programação PHP com HTML, CSS e PHP</h4>
+        <br>
+        <p class="texto-rodape">Contatos</p>
+        <p class="texto-rodape">Email: gadisa10@outlook.com</p>
+        <p class="texto-rodape">WhatsApp: (87) 9605-8064</p>
+        <br>
+        <p class="texto-rodape">Desenvolvido por mim</p>
+        <p class="texto-rodape">CNPJ: 66.666/6666.66</p>
+    </footer>
+
+</body>
