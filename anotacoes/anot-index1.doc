@@ -24,7 +24,7 @@
         }
 
         p {
-            color: blueviolet;
+            color: rgb(163, 110, 212);
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 16px;
             text-align: end;

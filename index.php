@@ -10,22 +10,61 @@
 
     <!-- Estilo do formulário -->
     <style type="text/css">
+        header {
+            position: fixed;
+            width: 100%;
+        }
 
         .formulario {
-            background-color: #808080;
-            color: #fff;
-            text-shadow: 2px 2px #000;
+            color: #000;
             padding: 10px;
             font-size: 1.9rem;
-            font-weight: bold; /* Nome em negrito */
+            font-weight: bold;
+            text-align: right;
+            /* Nome em negrito */
         }
 
         input {
             font-size: 1.7rem;
             padding: 4px;
-            border-radius: 10px; /* DEIXA A CAIXA REDONDA!!! */
-            border: solid; /* Mostra a borda da caixa */
+            border-radius: 10px;
+            /* DEIXA A CAIXA REDONDA!!! */
+            border: solid;
+            /* Mostra a borda da caixa */
             font-weight: bold;
+        }
+
+        h2 {
+            text-align: left;
+            padding: 10px;
+
+        }
+
+        #enviar {
+            background-color: rgba(0, 255, 0, 1.0);
+        }
+
+        p {
+            font-size: 1.6rem;
+            padding: 10px;
+        }
+
+        #grid-container {
+            background-color: rgba(0, 0, 255, 0.15)
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 5px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .grid div {
+            font-size: 1.6rem;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 1.0);
         }
     </style>
 
@@ -35,46 +74,46 @@
         <h3>PROGRAMAÇÃO PHP</h3>
         <h4>CURSO UDEMY</h4>
     </header>
-    <br>
+    <br><br><br><br><br><br>
 
     <!-- define uma seção pra página-->
     <section>
 
-        <h1>Programação PHP</h1>
+        <h1>Aluguel de veículos</h1>
+        <h2>Página de Exemplo - Curso PHP</h2>
 
         <!-- criando div -->
         <div class="formulario">
 
             <!-- criando formulário -->
+            <!-- REFERENCIANDO PÁGINA ANALISE.PHP -->
             <form action="analise.php" method="get" target="">
+                <!-- Método GET - EXIBE OS DADOS NA URL
+                     Método POST - É MAIS SEGURO -->
 
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" name="nome" placeholder="Insira seu nome"><br><br>
-                <label for="salario">Salário:</label><br>
-                <input type="text" id="salario" name="salario" placeholder="Insira seu atual salário"><br><br>
-                <input type="submit" name="enviar">
+                <label for="pesquisa">Pesquisar</label>&nbsp
+
+                <input type="text" id="pesquisa" name="pesquisa" placeholder="Insira aqui a sua pesquisa">
+
+                <input type="submit" id="enviar" name="enviar" value="OK"><br>
 
             </form>
 
         </div>
+        <br><br>
 
-        <!---------------------- Incluindo PHP no HTML -->
-        <!--
-        <php
-        // variáveis:
-        $nome = "Gabriela";
-        $idade = "22";
-        $cidade = "Recife";
+        <section class="container" id="grid-container">
+            <div class="grid">
 
-        $nota1 = "6";
-        $nota2 = "7";
+                <div>Conteúdo 1</div>
+                <div>Conteúdo 2</div>
+                <div>Conteúdo 3</div>
+                <div>Conteúdo 4</div>
+                <div>Conteúdo 5</div>
+                <div>Conteúdo 6</div>
 
-        $media = ($nota1+$nota2) / 2;
-
-        // função que imprime
-        echo "<br>Olá $nome, atualmente você mora em $cidade e tem $idade anos! <br><br>";
-        echo "Sua nota 1 foi: $nota1<br> Sua nota 2 foi: $nota2 <br> Sua média é: <b>$media</b>."
-        ?> -->
+            </div>
+        </section>
 
     </section>
     <br>
